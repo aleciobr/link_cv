@@ -3,11 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./src/css/menuCSS/index.css">
         <link rel="stylesheet" href="./src/css/photoCSS/index.css">
         <link rel="stylesheet" href="./src/css/skillCSS/index.css">
-        <link rel="stylesheet" href="./src/css/menuCSS/index.css">
-        <link rel="stylesheet" href="./src/css/footerCSS/index.css">
         <link rel="stylesheet" href="src/css/projectsCSS/index.css">
+        <link rel="stylesheet" href="./src/css/contactCSS/index.css">
+        <link rel="stylesheet" href="./src/css/footerCSS/index.css">
         <link rel="stylesheet" href="./src/css/master.css">
         <link rel="icon" type="imagem/png" href="./assets/img/zelda.svg" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,10 +20,10 @@
         <header class="menuPort">
             <nav>
                 <img src="./assets/img/logo.png" alt="Logo">
-                <a href="/">Skills</a>
-                <a href="/">Projetos</a>
-                <a href="/">Sobre</a>
-                <a href="/">Contato</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projetos</a>
+                <a href="#about">Sobre</a>
+                <a href="#contact">Contato</a>
                 <button type="button" class="downloadCV">Download CV</button>
             </nav>
         </header>
@@ -38,7 +39,7 @@
                 <button type="button" class="downloadFoto">Download CV</button>
             </nav>
             <hr>
-            <nav class="skills">
+            <nav class="skills" id="skills">
                 <h2>SKILLS</h2>
                 <ul>
                     <li><img src="./assets/img/sword.png" alt="sword">Maestria em Espada<progress value="100" max="100"></progress></li>
@@ -52,7 +53,7 @@
                 </ul>
             </nav>
             <hr class="project">
-            <nav class="projects">
+            <nav class="projects" id="projects">
                 <div>
                     <h2>Projetos</h2>
                 </div>
@@ -63,30 +64,30 @@
                 </div>
             </nav>
             <hr class="project2">
-            <div class="about">
+            <div class="about" id="about">
                 <h2>Sobre</h2>
             </div>
             <hr>
-            <div class="contact">
-                <h2>Contato</h2>
-                <div class="formulario">
+            <div class="contact" id="contact">
+                <h2>Contatos</h2>
+                <div class="formContact">
                     <form action="" method="POST">
                         <div>
-                            <label for="nome">Nome Completo</label>
+                            <label for="nome">Nome</label>
                             <br>
                             <input type="text" maxlength="30" id="nome">
                         </div>
                         <div>
-                            <label for="email">Digite seu E-mail</label>
+                            <label for="email">E-mail</label>
                             <br>
                             <input type="text" maxlength="50" id="email">
                         </div>
                         <div>
-                            <label for="mensage">Digite sua mensagem.</label>
+                            <label for="mensage">Mensagem</label>
                             <br>
-                            <input type="text" maxlength="400" id="mensage">
+                            <input type="text" maxlength="400" id="mensage" class="mensage">
                         </div>
-                        <button type="submit">Enviar Mensagem</button>
+                        <button type="submit">Enviar</button>
                     </form>
                 </div>
             </div>
