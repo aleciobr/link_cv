@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="./src/css/skillCSS/index.css">
         <link rel="stylesheet" href="src/css/projectsCSS/index.css">
         <link rel="stylesheet" href="./src/css/contactCSS/index.css">
+        <link rel="stylesheet" href="./src/css/aboutCSS/index.css">
         <link rel="stylesheet" href="./src/css/footerCSS/index.css">
         <link rel="stylesheet" href="./src/css/master.css">
         <link rel="icon" type="imagem/png" href="./assets/img/zelda.svg" />
@@ -24,7 +25,10 @@
                 <a href="#projects"><p>&bull;</p> Projetos</a>
                 <a href="#about"><p>&bull;</p> Sobre</a>
                 <a href="#contact"><p>&bull;</p> Contato</a>
-                <button type="button" class="downloadCV">Download CV</button>
+                <form method="get" action="./assets/download/simplesTeste.doc">
+                    <button type="submit" class="downloadCV">Download CV</button>
+                </form>
+                
             </nav>
         </header>
         <hr>
@@ -36,7 +40,9 @@
                     <p>Salvando a Zelda sempre!</p>
                 </div>
                 <button type="button" onclick="location.href='#contact'" class="downloadContato">Contato</button>
-                <button type="button" class="downloadFoto">Download CV</button>
+                <form method="get" action="./assets/download/simplesTeste.doc">
+                    <button type="submit" class="downloadFoto" id="download">Download CV</button>
+                </form>
             </nav>
             <hr>
             <nav class="skills" id="skills">
@@ -85,7 +91,7 @@
                         <div>
                             <label for="mensage">Mensagem</label>
                             <br>
-                            <input type="text" maxlength="400" id="mensage">
+                            <textarea name="Mensagem" id="mensage" cols="30" rows="10"></textarea>
                         </div>
                         <button type="submit">Enviar</button>
                     </form>

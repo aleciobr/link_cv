@@ -22,8 +22,8 @@
 
 .formContact input{
     margin-bottom:15px;
-    width: 590px;
     height: 30px;
+    width: 590px;
     border: solid #000 5px;
 }
 
@@ -37,3 +37,9 @@
     box-shadow: 5px 5px 1px #000;
 }
 
+.formContact textarea{
+    margin-bottom:15px;
+    width: 590px;
+    border: solid #000 5px;
+    resize: none;
+}
