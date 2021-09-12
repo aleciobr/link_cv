@@ -1,7 +1,12 @@
-*{
+body{
     margin: 0;
     padding: 0;
     font-family: 'Press Start 2P', cursive;
+}
+
+.master{
+    width: 100%;
+    height: 100vh;
 }
 
 hr{
@@ -16,4 +21,9 @@ hr{
 
 .project2{
     background: #6de695;
+}
+
+
+@media screen {
+    
 }

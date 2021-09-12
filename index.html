@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./src/css/master.css">
         <link rel="stylesheet" href="./src/css/menuCSS/index.css">
         <link rel="stylesheet" href="./src/css/photoCSS/index.css">
         <link rel="stylesheet" href="./src/css/skillCSS/index.css">
@@ -10,7 +11,6 @@
         <link rel="stylesheet" href="./src/css/contactCSS/index.css">
         <link rel="stylesheet" href="./src/css/aboutCSS/index.css">
         <link rel="stylesheet" href="./src/css/footerCSS/index.css">
-        <link rel="stylesheet" href="./src/css/master.css">
         <link rel="icon" type="imagem/png" href="./assets/img/zelda.svg" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,210 +18,217 @@
         <title>Portifolio Link</title>
     </head>
     <body>
-        <header class="menuPort">
-            <nav>
-                <img src="./assets/img/logo.png" alt="Logo">
-                <a href="#skills"><p>&bull;</p> Skills</a>
-                <a href="#projects"><p>&bull;</p> Projetos</a>
-                <a href="#about"><p>&bull;</p> Sobre</a>
-                <a href="#contact"><p>&bull;</p> Contato</a>
-                <form method="get" action="./assets/download/simplesTeste.doc">
-                    <button type="submit" class="downloadCV">Download CV</button>
-                </form>
-                
-            </nav>
-        </header>
-        <hr>
-        <main>
-            <nav class="foto">
-                <img src="./assets/img/link.png" alt="Link">
-                <div class="nomeLink">
-                    <h1>Link, o Herói</h1>
-                    <p>Salvando a Zelda sempre!</p>
-                </div>
-                <button type="button" onclick="location.href='#contact'" class="downloadContato">Contato</button>
-                <form method="get" action="./assets/download/simplesTeste.doc">
-                    <button type="submit" class="downloadFoto" id="download">Download CV</button>
-                </form>
-            </nav>
+        <div class="master">
+            <header class="menuPort">
+                <nav>
+                    <img src="./assets/img/logo.png" alt="Logo">
+                    <a href="#skills"><p>&bull;</p> Skills</a>
+                    <a href="#projects"><p>&bull;</p> Projetos</a>
+                    <a href="#about"><p>&bull;</p> Sobre</a>
+                    <a href="#contact"><p>&bull;</p> Contato</a>
+                    <form method="get" action="./assets/download/simplesTeste.doc">
+                        <button type="submit" class="downloadCV">Download CV</button>
+                    </form>
+                    
+                </nav>
+            </header>
             <hr>
-            <nav class="skills" id="skills">
-                <h2>SKILLS</h2>
-                <ul>
-                    <li><img src="./assets/img/sword.png" alt="sword">Maestria em Espada<progress value="100" max="100"></progress></li>
-                    <li><img src="./assets/img/courage.png" alt="courage">Maestria na Coragem<progress value="75" max="100"></progress></li>
-                    <li><img src="./assets/img/map.png" alt="map">Maestria na Exploração<progress value="70" max="100"></progress></li>
-                    <li><img src="./assets/img/longshot.png" alt="longshot">Maestria em Tiro longo(Agarrar)<progress value="60" max="100"></progress></li>
-                    <li><img src="./assets/img/bomb.png" alt="bomb">Maestria em Bombas<progress value="80" max="100"></progress></li>
-                    <li><img src="./assets/img/boomer.png" alt="boomerang">Maestria com Bumerangue<progress value="70" max="100"></progress></li>
-                    <li><img src="./assets/img/strong.png" alt="strong">Maestria de Força<progress value="85" max="100"></progress></li>
-                    <li><img src="./assets/img/bow.png" alt="bow">Maestria em Arco e Flecha<progress value="85" max="100"></progress></li>
-                </ul>
-            </nav>
-            <hr class="project">
-            <nav class="projects" id="projects">
-                <div>
-                    <h2>Projetos</h2>
-                </div>
-                <div>
-                    <a href="https://www.youtube.com/watch?v=zw47_q9wbBE"><img src="assets/img/botw.png" alt="ZeldaBotw"></a>
-                    <a href="https://www.youtube.com/watch?v=jFyPy6fUaCs"><img src="assets/img/mariokart.png" alt="MarioKart"></a>
-                    <a href="https://www.youtube.com/watch?v=kfeUdBi67G4"><img src="assets/img/smash.png" alt="SmashBros"></a>
-                </div>
-            </nav>
-            <hr class="project2">
-            <div class="about" id="about">
-                <h2>Sobre</h2>
-                <nav class="lineAbout">
-                    <hr class="lineHoriCenter"/>
-                    <hr class="lineHori"/>       
-                    <nav class="aboutYear"> 
-                        <button type="submit"><img src="./assets/img/left-arrows-couple.png" alt="left" class="sizeBtn"></button>
-                        <div>
-                            <h3 class="dist">1986</h3>
-                            <hr class="lineVertical"/>
-                            <img src="" alt="zelda"> 
-                        </div>
-                        <div>
-                            <h3 class="dist">1987</h3>
-                            <hr class="lineVertical"/>
-                            <img src="" alt="zeldataol">
-                        </div>
-                        <div>
-                            <h3 class="dist">1991</h3>
-                            <hr class="lineVertical"/>
-                            <img src="" alt="zeldaalttp"> 
-                        </div>
-                        <div>
-                            <h3 class="dist">1993</h3>
-                            <hr class="lineVertical"/>
-                            <img src="" alt="zeldala">
-                        </div>
-                        <div>
-                            <h3 class="dist">1998</h3>
-                            <hr class="lineVertical"/>
-                            <img src="./assets/img/zeldaocarina.png" alt="zeldaocarina">
-                        </div>
-                        <div>
-                            <h3 class="dist">2000</h3>
-                            <hr class="lineVertical"/>
-                            <img src="./assets/img/zeldamajoras.png" alt="zeldamajora"> 
-                        </div>
-                        <div>
-                            <h3 class="dist">2001</h3>
-                            <hr class="lineVertical"/>
-                            <img src="./assets/img/zeldaages.png" alt="zeldaages">
-                        </div>
-                        <div>
-                            <h3 class="dist">2001</h3>
-                            <hr class="lineVertical"/>
-                            <img src="./assets/img/zeldaseasons.png" alt="zeldaseasons">
-                        </div>
-                        <div>
-                            <h3 class="dist">2002</h3>
-                            <hr class="lineVertical"/>
-                            <img src="" alt="zeldafw">
-                        </div>
-                        <div>
-                            <h3 class="dist">2002</h3>
-                            <hr class="lineVertical"/>
-                            <img src="./assets/img/zeldaww.png" alt="zeldaww"> 
-                        </div>
-                        <div>
-                            <h3 class="dist">2004</h3>
-                            <hr class="lineVertical"/>
-                            <img src="" alt="zeldafwa">
-                        </div>
-                        <div>
-                            <h3 class="dist">2004</h3>
-                            <hr class="lineVertical"/>
-                            <img src="./assets/img/zeldaminish.png" alt="zeldaminish">
-                        </div>
-                        <div>
-                            <h3 class="dist">2006</h3>
-                            <hr class="lineVertical"/>
-                            <img src="./assets/img/zeldatp.png" alt="zeldatp">
-                        </div>
-                        <div>
-                            <h3 class="dist">2007</h3>
-                            <hr class="lineVertical"/>
-                            <img src="" alt="zeldaph">
-                        </div>
-                        <div>
-                            <h3 class="dist">2009</h3>
-                            <hr class="lineVertical"/>
-                            <img src="" alt="zeldast">
-                        </div>
-                        <div>
-                            <h3 class="dist">2011</h3>
-                            <hr class="lineVertical"/>
-                            <img src="./assets/img/zeldass.png" alt="zeldass">
-                        </div>
-                        <div>
-                            <h3 class="dist">2013</h3>
-                            <hr class="lineVertical"/>
-                            <img src="./assets/img/zeldabw.png" alt="zeldaalbw">
-                        </div>
-                        <div>
-                            <h3 class="dist">2015</h3>
-                            <hr class="lineVertical"/>
-                            <img src="" alt="zeldatfh">
-                        </div>
-                        <div>
-                            <h3 class="dist">2016</h3>
-                            <hr class="lineVertical"/>
-                            <img src="" alt="zeldabotw">
-                        </div>
-                        <div>
-                            <h3 class="dist">2022</h3>
-                            <hr class="lineVertical"/>
-                            <img src="" alt="zeldabtow2">
-                        </div>
+            <main>
+                <nav class="foto">
+                    <img src="./assets/img/link.png" alt="Link">
+                    <div class="nomeLink">
+                        <h1>Link, o Herói</h1>
+                        <p>Salvando a Zelda sempre!</p>
+                    </div>
+                    <button type="button" onclick="location.href='#contact'" class="downloadContato">Contato</button>
+                    <form method="get" action="./assets/download/simplesTeste.doc">
+                        <button type="submit" class="downloadFoto" id="download">Download CV</button>
+                    </form>
+                </nav>
+                <hr>
+                <nav class="skills" id="skills">
+                    <h2>SKILLS</h2>
+                    <ul>
+                        <li><img src="./assets/img/sword.png" alt="sword">Maestria em Espada<progress value="100" max="100"></progress></li>
+                        <li><img src="./assets/img/courage.png" alt="courage">Maestria na Coragem<progress value="75" max="100"></progress></li>
+                        <li><img src="./assets/img/map.png" alt="map">Maestria na Exploração<progress value="70" max="100"></progress></li>
+                        <li><img src="./assets/img/longshot.png" alt="longshot">Maestria em Tiro longo(Agarrar)<progress value="60" max="100"></progress></li>
+                        <li><img src="./assets/img/bomb.png" alt="bomb">Maestria em Bombas<progress value="80" max="100"></progress></li>
+                        <li><img src="./assets/img/boomer.png" alt="boomerang">Maestria com Bumerangue<progress value="70" max="100"></progress></li>
+                        <li><img src="./assets/img/strong.png" alt="strong">Maestria de Força<progress value="85" max="100"></progress></li>
+                        <li><img src="./assets/img/bow.png" alt="bow">Maestria em Arco e Flecha<progress value="85" max="100"></progress></li>
+                    </ul>
+                </nav>
+                <hr class="project">
+                <nav class="projects" id="projects">
+                    <div>
+                        <h2>Projetos</h2>
+                    </div>
+                    <div>
+                        <a href="https://www.youtube.com/watch?v=zw47_q9wbBE"><img src="assets/img/botw.png" alt="ZeldaBotw"></a>
+                        <a href="https://www.youtube.com/watch?v=jFyPy6fUaCs"><img src="assets/img/mariokart.png" alt="MarioKart"></a>
+                        <a href="https://www.youtube.com/watch?v=kfeUdBi67G4"><img src="assets/img/smash.png" alt="SmashBros"></a>
+                    </div>
+                </nav>
+                <hr class="project2">
+                <div class="about">
+                    <h2>Sobre</h2>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <nav class="lineAbout">
+                        <hr class="lineHoriCenter"/>
+                        <hr class="lineHori"/>   
+                        <button type="submit"><img src="./assets/img/left-arrows-couple.png" alt="left" class="sizeBtn"></button>    
+                        <nav class="aboutYear"> 
+                            <div>
+                                <h3>1986</h3>
+                                <hr/>
+                                <img src="./assets/img/zelda.png" alt="zelda"> 
+                            </div>
+                            <div>
+                                <h3>1987</h3>
+                                <hr/>
+                                <img src="./assets/img/zeldaal.png" alt="zeldataol">
+                            </div>
+                            <div>
+                                <h3>1991</h3>
+                                <hr/>
+                                <img src="./assets/img/zeldaalttp.png" alt="zeldaalttp"> 
+                            </div>
+                            <div>
+                                <h3>1993</h3>
+                                <hr/>
+                                <img src="./assets/img/zeldala.png" alt="zeldala">
+                            </div>
+                            <div>
+                                <h3>1998</h3>
+                                <hr/>
+                                <img src="./assets/img/zeldaocarina.png" alt="zeldaocarina">
+                            </div>
+                            <div>
+                                <h3>2000</h3>
+                                <hr/>
+                                <img src="./assets/img/zeldamajoras.png" alt="zeldamajora"> 
+                            </div>
+                            <div>
+                                <h3>2001</h3>
+                                <hr/>
+                                <img src="./assets/img/zeldaages.png" alt="zeldaages">
+                            </div>
+                            <div>
+                                <h3>2001</h3>
+                                <hr/>
+                                <img src="./assets/img/zeldaseasons.png" alt="zeldaseasons">
+                            </div>
+                            <div>
+                                <h3>2002</h3>
+                                <hr/>
+                                <img src="./assets/img/zeldafw.png" alt="zeldafw">
+                            </div>
+                            <div>
+                                <h3>2002</h3>
+                                <hr/>
+                                <img src="./assets/img/zeldaww.png" alt="zeldaww"> 
+                            </div>
+                            <div>
+                                <h3>2004</h3>
+                                <hr/>
+                                <img src="./assets/img/zeldafsa.png" alt="zeldafwa">
+                            </div>
+                            <div>
+                                <h3>2004</h3>
+                                <hr/>
+                                <img src="./assets/img/zeldaminish.png" alt="zeldaminish">
+                            </div>
+                            <div>
+                                <h3>2006</h3>
+                                <hr/>
+                                <img src="./assets/img/zeldatp.png" alt="zeldatp">
+                            </div>
+                            <div>
+                                <h3>2007</h3>
+                                <hr/>
+                                <img src="./assets/img/zeldaph.png" alt="zeldaph">
+                            </div>
+                            <div>
+                                <h3>2009</h3>
+                                <hr/>
+                                <img src="./assets/img/zeldast.png" alt="zeldast">
+                            </div>
+                            <div>
+                                <h3>2011</h3>
+                                <hr/>
+                                <img src="./assets/img/zeldass.png" alt="zeldass">
+                            </div>
+                            <div>
+                                <h3>2013</h3>
+                                <hr/>
+                                <img src="./assets/img/zeldabw.png" alt="zeldaalbw">
+                            </div>
+                            <div>
+                                <h3>2015</h3>
+                                <hr/>
+                                <img src="./assets/img/zeldatfh.png" alt="zeldatfh">
+                            </div>
+                            <div>
+                                <h3>2016</h3>
+                                <hr/>
+                                <img src="./assets/img/zeldabotw.png" alt="zeldabotw">
+                            </div>
+                            <div>
+                                <h3>2022</h3>
+                                <hr/>
+                                <img src="./assets/img/zeldabotw2.jpg" alt="zeldabtow2">
+                            </div>
+                        </nav>
                         <button type="submit"><img src="./assets/img/left-arrows-couple.png" alt="right" class="sizeBtn right"></button>
                     </nav>
-                </nav>
-                <br>
-                <p>Link é o protagonista da série Legend of Zelda.</p> 
-                <p>Ele é geralmente retratado como um corajoso garoto ou adolescente com uma vestimenta verde, o qual abandona sua casa e seus parentes para perseguir o seu destino: lutar contra as forças do mal que ameaçam hyrule.</p>
-                <p>Ao longo de sua aventura, Link derrota legiões de monstros do mal, explora vastas terras, ajuda a qualquer um que ele encontre em dificuldades, percorre masmorras mortais, e coleta itens míticos enquanto prossegue sua busca por justiça e paz.</p>
-                <p>No final, ele ganha o poder necessário para impedir seu principal inimigo e torna-se um herói lendário.</p>
-                <p>Ele é considerado um personagem icônico dos vídeo games e o próprio símbolo da franquia Zelda, e continua sendo um dos protagonistas mais populares dos vídeo games.</p>
-            </div>
-            <hr>
-            <div class="contact" id="contact">
-                <h2>Contatos</h2>
-                <div class="formContact">
-                    <form action="" method="POST">
-                        <div>
-                            <label for="nome">Nome</label>
-                            <br>
-                            <input type="text" maxlength="30" id="nome">
-                        </div>
-                        <div>
-                            <label for="email">E-mail</label>
-                            <br>
-                            <input type="text" maxlength="50" id="email">
-                        </div>
-                        <div>
-                            <label for="mensage">Mensagem</label>
-                            <br>
-                            <textarea name="Mensagem" id="mensage" cols="30" rows="10"></textarea>
-                        </div>
-                        <button type="reset">Enviar</button>
-                    </form>
+                    <br>
+                    <p>Link é o protagonista da série Legend of Zelda.</p> 
+                    <p>Ele é geralmente retratado como um corajoso garoto ou adolescente com uma vestimenta verde, o qual abandona sua casa e seus parentes para perseguir o seu destino: lutar contra as forças do mal que ameaçam hyrule.</p>
+                    <p>Ao longo de sua aventura, Link derrota legiões de monstros do mal, explora vastas terras, ajuda a qualquer um que ele encontre em dificuldades, percorre masmorras mortais, e coleta itens míticos enquanto prossegue sua busca por justiça e paz.</p>
+                    <p>No final, ele ganha o poder necessário para impedir seu principal inimigo e torna-se um herói lendário.</p>
+                    <p>Ele é considerado um personagem icônico dos vídeo games e o próprio símbolo da franquia Zelda, e continua sendo um dos protagonistas mais populares dos vídeo games.</p>
+                    <br>
                 </div>
-            </div>
-        </main>
-        <footer class="redeSocial">
-            <nav class="rede1">
-                <a href="https://www.instagram.com/bruno.alecio1/"><img src="./assets/img/instagram.png" alt="Instagram"></a>
-                <a href="https://www.twitch.tv/aleciogames"><img src="./assets/img/twitch.png" alt="Twitch"></a>
-                <a href="https://discord.gg/jXcHpuJh5d"><img src="./assets/img/discordia.png" alt="Discord"></a>
-                <a href="https://github.com/aleciobr"><img src="./assets/img/github.png" alt="Github"></a>
-            </nav>
-            <nav class="rede2">
-                <a href="https://www.firedlabs.com">Agradecimento ao Firelabs(marcobrunodev) pelo estudo!!!</a>
-            </nav>
-        </footer>
+                <hr>
+                <div class="contact" id="contact">
+                    <h2>Contatos</h2>
+                    <div class="formContact">
+                        <form action="" method="POST">
+                            <div>
+                                <label for="nome">Nome</label>
+                                <br>
+                                <input type="text" maxlength="30" id="nome">
+                            </div>
+                            <div>
+                                <label for="email">E-mail</label>
+                                <br>
+                                <input type="text" maxlength="50" id="email">
+                            </div>
+                            <div>
+                                <label for="mensage">Mensagem</label>
+                                <br>
+                                <textarea name="Mensagem" id="mensage" cols="30" rows="10"></textarea>
+                            </div>
+                            <button type="reset">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </main>
+            <footer class="redeSocial">
+                <nav class="rede1">
+                    <a href="https://www.instagram.com/bruno.alecio1/"><img src="./assets/img/instagram.png" alt="Instagram"></a>
+                    <a href="https://www.twitch.tv/aleciogames"><img src="./assets/img/twitch.png" alt="Twitch"></a>
+                    <a href="https://discord.gg/jXcHpuJh5d"><img src="./assets/img/discordia.png" alt="Discord"></a>
+                    <a href="https://github.com/aleciobr"><img src="./assets/img/github.png" alt="Github"></a>
+                </nav>
+                <nav class="rede2">
+                    <a href="https://www.firedlabs.com">Agradecimento ao Firelabs(marcobrunodev) pelo estudo!!!</a>
+                </nav>
+            </footer>
+        </div>
     </body>
 </html>
